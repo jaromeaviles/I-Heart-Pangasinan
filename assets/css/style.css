@@ -1,0 +1,85 @@
+/*
+ *
+ * CSS Reset
+ *
+ */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*
+ *
+ * General Rules
+ *
+ */
+
+
+   				/* Landing Page */
+
+
+body {
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+main#landingPage {
+	padding: 0;
+	height: 100vh;
+	background-image: url(../img/landing-page/landing.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+div#mainLandingContent {
+	position: relative;
+	width: 100%;
+}
+div#mainLandingContent > div {
+	min-height: 165%;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 140%);
+
+}
+div#mainLandingContent > div > h1 {
+	font-family: 'Ribeye Marrow', cursive;
+	font-size: 60px;
+	letter-spacing: 2px;
+}
+div#mainLandingContent > div > small {
+	display: block;
+	padding-bottom: 15px;
+	font-size: 15px;
+}
+div#mainLandingContent > div > button {
+	background-color: transparent;
+}
+
+			/* Landing Page Footer */
+
+div#landingPageFooter {
+	position: relative;
+	width: 100%;
+}
+div#landingPageFooter > div {
+	background-color: #F0CC80;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, %);
+}
