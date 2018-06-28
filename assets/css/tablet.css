@@ -1,0 +1,64 @@
+
+/*
+ *
+ * Tablet Devices
+ *
+ */
+
+
+ @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+
+	/*
+	 *
+	 *
+	 * Landing Page
+	 *
+	 */
+
+
+	 div#mainLandingContent {
+	 	/*display: flex;*/
+	 	width: 100%;
+	 	/*min-height: 50vh;*/
+	 	/*align-items: center;*/
+	 	/*justify-content: center;*/
+	 	text-align: center;
+	 	padding: 15px;
+	 }
+	 div#mainLandingContent > h1 {
+	 	font-family: 'Ribeye Marrow', sans-serif;
+	 	padding-top: 150px;
+	 	color: #f0ffff;	
+	 	font-size: 70px;
+	 }
+
+	 div#landingPageFooter {
+	 	width: 60%;
+	 	min-height: 15vh;
+	 	margin: 0 auto;
+	 	position: relative;
+	 	color: #f0ffff;
+	 }
+	  div#landingPageFooter > p {
+	  	font-size: 40px;
+	  	text-align: center;
+	  }
+	  div#landingPageFooter > a {
+	  	position: absolute;
+	  	right: 15px;
+	  	bottom: 20px;
+	  	font-family: 'Ribeye Marrow', sans-serif;
+	  	letter-spacing: 2px;
+	  	/*width: 15%;*/
+	  }
+
+	  div#landingPageCaption > q {
+	  	font-style: italic;
+	  	color: #f0ffff;
+	  	font-size: 0.9em;
+	  	text-align: center;
+	  }
+
+	}

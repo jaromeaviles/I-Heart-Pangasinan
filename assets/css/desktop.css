@@ -1,0 +1,79 @@
+
+/*
+ *
+ * Desktop Devices
+ *
+ */
+
+
+ @media only screen and (min-width: 961px) {
+
+
+
+	/*
+	 *
+	 *
+	 * Landing Page
+	 *
+	 */
+
+
+	 div#mainLandingContent {
+	 	display: flex;
+	 	min-width: 100%;
+	 	min-height: 50vh;
+	 	align-items: center;
+	 	justify-content: center;
+	 }
+	 div#mainLandingContent > h1 {
+	 	font-family: 'Ribeye Marrow', sans-serif;
+	 	padding-top: 180px;
+	 	color: #f0ffff;	
+	 	font-size: 70px;
+	 }
+
+	 div#landingPageFooter {
+	 	width: 60%;
+	 	min-height: 30vh;
+	 	margin: 0 auto;
+	 	position: relative;
+	 	color: #f0ffff;
+	 }
+	  div#landingPageFooter > p {
+	  	font-size: 35px;
+	  	text-align: center;
+	  }
+	  div#landingPageFooter > a {
+	  	background: transparent;
+	  	/*text-transform: uppercase;*/
+	  	position: absolute;
+	  	right: 15px;
+	  	bottom: 20px;
+	  	/*font-family: 'Ribeye Marrow', sans-serif;*/
+	  	/*letter-spacing: 2px;*/
+	  	border: 1px solid #20bf6b !important;
+	  	color: #20bf6b;
+	  }
+
+	  div#landingPageFooter > a:hover {
+	  	color: #f0ffff !important;
+	  	font-weight: 700 !important;
+	  	letter-spacing: 3px;
+	  	background: none;
+	  	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	  	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	  	transition: all 0.3s ease 0s;
+	  }
+
+	  div#landingBanner {
+	  	background-color: #454F59;
+	  	opacity: 0.8;
+	  }
+
+	  div#landingPageCaption > q {
+	  	font-style: italic;
+	  	color: #f0ffff;
+	  	font-size: 0.9em;
+	  }
+
+	}
