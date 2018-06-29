@@ -19,11 +19,7 @@
 
 
 	 div#mainLandingContent {
-	 	/*display: flex;*/
 	 	width: 100%;
-	 	/*min-height: 50vh;*/
-	 	/*align-items: center;*/
-	 	/*justify-content: center;*/
 	 	text-align: center;
 	 	padding: 15px;
 	 }
@@ -52,7 +48,6 @@
 	  	bottom: 20px;
 	  	font-family: 'Ribeye Marrow', sans-serif;
 	  	letter-spacing: 2px;
-	  	/*width: 15%;*/
 	  	border: 1px solid #20bf6b !important;
 	  	color: #20bf6b;
 	  	background: transparent;

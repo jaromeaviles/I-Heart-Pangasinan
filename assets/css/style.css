@@ -17,17 +17,24 @@
  */
 
 
-body {
+ body {
 
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-}
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 16px;
+ }
 
-.clear:after {
-	content: "";
-	display: block;
-	clear: both;
-}
+ .clear:after {
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+ }
+
+ div#mainLandingContent > h1,
+ header#mainHeader > h1 {
+
+ 	font-family: 'Ribeye Marrow', sans-serif;
+ 	color: #f0ffff;	
+ }
 
           /* General Rules For Landing Page */
 
@@ -40,17 +47,9 @@ body {
 
  }
 
- div#mainLandingContent > h1 {
- 	font-family: 'Ribeye Marrow', sans-serif;
- 	/*padding-top: 160px;*/
- 	color: #f0ffff;	
- 	/*font-size: 70px;*/
- }
 
  div#landingPageFooter {
- 	/*width: 60%;*/
  	min-height: 25vh;
- 	/*margin: 0 auto;*/
  	position: relative;
     color: #f0ffff;
  }
@@ -84,4 +83,67 @@ body {
  	bottom: 0;
  	left: 0;
  }
+
+  /* General Rules for Home Page */
+
+  /*Main Header*/
+
+  main > h2,
+  section > h2 {
+  	font-family: 'Ribeye Marrow', sans-serif;
+  }
+
+  .wrapper {
+  	background-image: url(../img/landing-page/landing.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	min-height: 60vh;
+  }
+
+  header#mainHeader {
+  	width: 100%;
+  	margin: 0 auto;
+  	padding-top: 20vh;
+  }
+  header#mainHeader > h1 {
+  	color: #f0ffff;
+  	text-shadow: 5px 2px 5px #000;
+
+  }
+
+  /* Main Overview */
+
+  div.mainOverview {
+  	padding-top: 15px;
+  	position: relative;
+  	width: 100%;
+  }
+
+  div.mainOverview > i {
+  	font-size: 85px;
+  	/*min-width: 5%;*/
+  }
+
+  div.mainOverview > span {
+  	font-size: 30px;
+  	/*min-width: 50%;*/
+  	/*position: absolute;
+  	top: 40px;
+  	left: 85px;*/
+  }
+
+
+  /* Main Content */
+
+  div#mainContent img {
+  	display: block;
+  }
+  div#mainContent h4 {
+  	font-weight: 700;
+  	padding-bottom: 15px;
+  }
+
+  .good {
+  	color: green;
+  }
 
