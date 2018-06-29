@@ -36,13 +36,14 @@
 
 	 div#landingPageFooter {
 	 	width: 60%;
-	 	min-height: 15vh;
+	 	min-height: 25vh;
 	 	margin: 0 auto;
 	 	position: relative;
 	 	color: #f0ffff;
 	 }
-	  div#landingPageFooter > p {
-	  	font-size: 40px;
+
+	  div#landingPageFooter > h3 {
+	  	font-size: 25px;
 	  	text-align: center;
 	  }
 	  div#landingPageFooter > a {
@@ -52,12 +53,17 @@
 	  	font-family: 'Ribeye Marrow', sans-serif;
 	  	letter-spacing: 2px;
 	  	/*width: 15%;*/
+	  	border: 1px solid #20bf6b !important;
+	  	color: #20bf6b;
+	  	background: transparent;
 	  }
 
-	  div#landingPageCaption > q {
+	  p#content {
 	  	font-style: italic;
 	  	color: #f0ffff;
-	  	font-size: 0.9em;
+	  	font-size: 16px;
+	  	padding-bottom: 15px;
+	  	padding: 0 15px 0 15px;
 	  	text-align: center;
 	  }
 

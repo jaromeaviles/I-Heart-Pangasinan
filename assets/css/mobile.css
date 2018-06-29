@@ -32,8 +32,8 @@
  	color: #f0ffff;
  	padding: 15px;
  }
- div#landingPageFooter > p {
- 	    font-size: 30px;
+ div#landingPageFooter > h3 {
+ 	    font-size: 20px;
 	  	text-align: center;
  }
   div#landingPageFooter > a {
@@ -45,14 +45,18 @@
   	letter-spacing: 2px;
   	text-align: center;
   	width: 100%;
-
+    border: 1px solid #20bf6b !important;
+    color: #20bf6b;
+    background: transparent;
   }
 
-  div#landingPageCaption > q {
+    p#content {
       font-style: italic;
       color: #f0ffff;
-      font-size: 0.9em;
-      text-align: justify;
+      font-size: 0.8rem;
+      padding-bottom: 15px;
+      padding: 0 15px 0 15px;
+      text-align: center;
     }
 
  }
