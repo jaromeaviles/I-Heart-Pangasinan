@@ -21,6 +21,7 @@
 
  	font-family: 'Open Sans', sans-serif;
  	font-size: 16px;
+  color: #333;
  }
 
  .clear:after {
@@ -111,39 +112,20 @@
 
   }
 
-  /* Main Overview */
-
-  div.mainOverview {
-  	padding-top: 15px;
-  	position: relative;
-  	width: 100%;
-  }
-
-  div.mainOverview > i {
-  	font-size: 85px;
-  	/*min-width: 5%;*/
-  }
-
-  div.mainOverview > span {
-  	font-size: 30px;
-  	/*min-width: 50%;*/
-  	/*position: absolute;
-  	top: 40px;
-  	left: 85px;*/
-  }
-
 
   /* Main Content */
 
   div#mainContent img {
   	display: block;
   }
-  div#mainContent h4 {
-  	font-weight: 700;
-  	padding-bottom: 15px;
-  }
 
   .good {
   	color: green;
   }
+
+  div#wrapperExperience {
+   background-color: #f5f6ff;
+  }
+
+
 

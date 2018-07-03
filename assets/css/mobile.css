@@ -6,32 +6,41 @@
 
  @media only screen and (max-width: 400px) {
 
+  .fixed-top {
+    position: static;
+  }
+
+ .navbar-light .navbar-brand,
+ .navbar-light .navbar-nav .nav-link {
+  color: #333;
+ }
+
  	/* Landing Page */
 
 
- div#mainLandingContent {
- 	width: 100%;
- 	height: 40vh;
- }
- div#mainLandingContent > h1 {
- 	font-family: 'Ribeye Marrow', sans-serif;
- 	padding-top: 70px;
- 	font-size: 40px;
- 	text-align: center;
- }
+   div#mainLandingContent {
+    width: 100%;
+    height: 40vh;
+  }
+  div#mainLandingContent > h1 {
+    font-family: 'Ribeye Marrow', sans-serif;
+    padding-top: 70px;
+    font-size: 40px;
+    text-align: center;
+  }
 
- div#landingPageFooter {
- 	width: 100%;
- 	min-height: 20vh;
- 	margin: 0 auto;
- 	position: relative;
- 	color: #f0ffff;
- 	padding: 15px;
- }
- div#landingPageFooter > h3 {
- 	    font-size: 20px;
-	  	text-align: center;
- }
+  div#landingPageFooter {
+    width: 100%;
+    min-height: 20vh;
+    margin: 0 auto;
+    position: relative;
+    color: #f0ffff;
+    padding: 15px;
+  }
+  div#landingPageFooter > h3 {
+    font-size: 20px;
+    text-align: center;
+  }
   div#landingPageFooter > a {
 
   	font-family: 'Ribeye Marrow', sans-serif;
@@ -43,13 +52,73 @@
     background: transparent;
   }
 
-    p#content {
-      font-style: italic;
-      color: #f0ffff;
-      font-size: 0.8rem;
-      padding-bottom: 15px;
-      padding: 0 15px 0 15px;
-      text-align: center;
-    }
+  p#content {
+    font-style: italic;
+    color: #f0ffff;
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+  }
 
- }
+   /* Overview Section */
+
+
+   div.main-overview {
+    padding-top: 30px;
+    /*width: 100%;*/
+    /*margin-left: 30px;*/
+   }
+   
+   div.overview-header {
+    padding-bottom: 15px;
+    text-align: center;
+   }
+
+
+   div.main-overview > div.overview-header > i {
+    font-size: 40px;  
+   }
+
+   div.main-overview > div.overview-header > span {
+    font-family: 'Ribeye Marrow', sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
+   }
+
+
+  /* Main Content Section */
+
+  div#mainContent h4 {
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+
+  header#mainHeader > h1 {
+    text-align: center;
+
+  }
+
+  section#mainHeaderContent {
+    padding: 15px 15px 0 15px;
+    margin-bottom: 30px;
+  }
+  section#mainHeaderContent > h2 {
+    font-weight: bolder;
+    text-align: center;
+
+  }
+  section#mainHeaderContent > blockquote {
+    text-align: center;
+  }
+
+
+  div.right-content, 
+  div.right-content-rating {
+    padding-bottom: 15px;
+  }
+
+}

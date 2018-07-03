@@ -62,4 +62,67 @@
 	  	text-align: center;
 	  }
 
-	}
+	   /* Overview Section */
+
+
+	 div.main-overview {
+	 	padding-top: 30px;
+	 	/*width: 100%;*/
+	 	/*margin-left: 30px;*/
+	 }
+	 div.overview-header {
+	 	padding-bottom: 15px;
+	 }
+	 div.main-overview > p {
+	 	text-align: justify;
+	 }
+
+	 div.main-overview > div.overview-header > i {
+	 	font-size: 40px;
+	 }
+
+	 div.main-overview > div.overview-header > span {
+	 	font-family: 'Ribeye Marrow', sans-serif;
+	 	font-size: 20px;
+	 	margin-left: 20px;
+	 }
+
+	 /* Main Content Section */
+
+
+	 header#mainHeader > h1 {
+	 	text-align: center;
+
+	 }
+
+	 section#mainHeaderContent {
+	 	padding: 15px 15px 0 15px;
+	 	margin-bottom: 30px;
+	 }
+	 section#mainHeaderContent > h2 {
+	 	font-weight: bolder;
+	 	text-align: center;
+
+	 }
+	 section#mainHeaderContent > blockquote {
+	 	text-align: center;
+	 }
+
+	 div#mainContent h4 {
+	 	font-weight: 700;
+	 	padding-bottom: 15px;
+	 }
+
+	 div#mainContent img {
+	 	width: 90%;
+	 	margin: 0 auto;
+	 	display: block;
+	 }
+
+	 div.right-content, 
+	 div.right-content-rating {
+	 	padding-bottom: 15px;
+	 }
+
+
+}
