@@ -147,19 +147,66 @@
 
 	 /* Experience */
 
-	 section#mainHeaderExperience > h2 {
-	 	font-weight: bolder;
-	 	text-align: center;
-	 	padding-top: 15px;
-	 	/*color: #f0ffff;*/
-	 }
 
-	 div#mainContentExplore {
+	 div#mainContentExperience {
 	 	padding: 40px 15px 15px 100px;
 	 }
 
-	 div#mainContentExplore > p {
+	 div#mainContentExperience > p {
 	 	font-size: 16px;
 	 }
+	 div#mainContentExperienceImage > img {
+	 	width: 65%;
+	 	display: block;
+	 	margin: 0 auto;
+	 	margin-top: 15px;
 
+	 }
+
+	 /* Discover */
+
+	 div#mainHeaderDiscover > h2 {
+	 	text-align: center;
+	 	padding-top: 15px;
+	 	padding-bottom: 15px;
+	 	font-weight: 600;
+	 	font-family: 'Ribeye Marrow', sans-serif;
+	 }
+
+	 div#mainHeaderDiscover > p {
+	 	text-align: center;
+	 	width: 80%;
+	 	margin: 0 auto;
+	 	padding: 15px 0 15px 0;
+	 }
+
+	 div#mainHeaderDiscover > a {
+	 	display: block;
+	 	text-align: center;
+	 	padding-bottom: 10px;
+	 }
+
+	 div.mainContentDiscover > img {
+	 	display: block;
+	 	/*width: 60%;*/
+	 	/*margin: 0 auto;*/
+	 }
+	 div.mainContentDiscover > h5 {
+	 	font-weight: 600;
+	 	text-align: center;
+	 	padding: 15px 0;
+	 }
+	 div.mainContentDiscover > p {
+	 	text-align: center;
+	 }
+
+	 /* Subscribe */
+
+	form#subscribeForm {
+		justify-content: center;
+	}
+
+	#inputEmail {
+		width: 420px;
+	}
 }

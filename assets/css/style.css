@@ -127,5 +127,29 @@
    background-color: #f5f6ff;
   }
 
+   div#mainContentExperience > h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-family: 'Ribeye Marrow', sans-serif;
+   }
+
+   /* Discover */
+
+   div.mainContentDiscover {
+    margin-top: 30px;
+   }
+
+   /* Subscribe */
+
+   div#subscribeWrapper {
+    background-color: #395556;
+    color: #F5F6FF;
+   }
+   
+   button#subscribeButton {
+    background-color: transparent;
+   }
+}
 
 
