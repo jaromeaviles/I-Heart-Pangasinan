@@ -78,7 +78,7 @@
 	 }
 
 
-	 /* Rules for Home Page */
+	                                  /* Rules for Home Page */
 
 	 /* Overview Section */
 
@@ -209,4 +209,30 @@
 	#inputEmail {
 		width: 420px;
 	}
+
+	/* Footer */
+
+
+   div#footerHeader > p {
+    color: #F5F6FF;
+    font-size: 20px;
+    letter-spacing: 2px;
+   }
+
+   div#footerSocialLinks > ul > li {
+    display: inline;
+    border-right: 1px solid #F5F6FF;
+   }
+   div#footerSocialLinks > ul > li > a {
+    color: #F5F6FF;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 5px;
+   }
+
+
+                           /* Rules for About Page */
+
+
+
 }

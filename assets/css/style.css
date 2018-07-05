@@ -22,6 +22,7 @@
  	font-family: 'Open Sans', sans-serif;
  	font-size: 16px;
   color: #333;
+  /*background-color: #F5F6FF;*/
  }
 
  .clear:after {
@@ -57,10 +58,12 @@
 
  .navbar-light .navbar-brand,
  .navbar-light .navbar-nav .nav-link {
- 	color: #fff;
+ 	color: #F5F6FF;
  	font-size: 15px;
+  font-weight: 15px;
  	letter-spacing: 2px;
  	margin-right: 20px;
+  text-shadow: 5px 5px 3px #333;
  }
  .navbar-light .navbar-brand:hover,
  .navbar-light .navbar-nav .nav-link:hover {
@@ -107,7 +110,7 @@
   	padding-top: 20vh;
   }
   header#mainHeader > h1 {
-  	color: #f0ffff;
+  	color: #F5F6FF;
   	text-shadow: 5px 2px 5px #000;
 
   }
@@ -149,7 +152,100 @@
    
    button#subscribeButton {
     background-color: transparent;
+    border: 1px solid #f5f6ff;
    }
+
+
+   /* Download */
+
+   div#downloadHeader > h2 {
+    font-weight: 600;
+    color: #333;
+   }
+
+   div#downloadContent > i {
+    font-size: 80px;
+    padding: 15px;
+    color: #141515;
+   }
+
+   /* Footer */
+
+   div#footerWrapper {
+    background-color: #141515;
+    min-height: 18vh;
+   }
+
+   div#footerSocialLinks > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   }
+   div#footerSocialLinks > ul > li {
+    display: inline;
+    border-right: 1px solid #F5F6FF;
+   }
+   div#footerSocialLinks > ul > li > a:hover {
+    color: #395556;
+   }
+
+   div#footerSocialLinks > ul > li:last-child {
+    border-right: none;
+   }
+
+   div#footerSocialLinks > p {
+    color: #F5F6FF;
+   }
+
+                           /* Rules for About Page */
+
+    div#aboutContent {
+      min-height: 30vh;
+    }
+
+   div#aboutContent > h2 {
+    font-family: 'Ribeye Marrow', sans-serif;
+
+   }
+
+   div#aboutCreatorContent > h2 {
+    font-family: 'Ribeye Marrow', sans-serif;
+
+   }
+
+   div#aboutImageContainer > img {
+    border-radius: 50%;
+   }
+
+   div#aboutCreator {
+    padding-top: 15px;
+   }
+    div#aboutCreatorContent {
+      padding-top: 25px;
+      padding-left: 15px;
+    }
+
+   div#aboutCreator > img {
+    border-radius: 50%;
+   }
+
+   div.contentWrapper {
+    background-color: #F5F6FF;
+    padding-bottom: 15px;
+   }
+   div#aboutCreatorContent > form > button {
+    text-transform: uppercase;
+    background-color: #395556;
+    border: none;
+    box-shadow: 5px 5px 2px #333;
+   }
+
+                  /* Rules for Contact Page */
+
+  div#contactHeader > h2 {
+     font-family: 'Ribeye Marrow', sans-serif;
+  }
+
 }
 
 

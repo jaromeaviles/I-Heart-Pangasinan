@@ -191,4 +191,24 @@
 		width: 420px;
 	}
 
+	/* Footer */
+
+	div#footerHeader > p {
+		color: #F5F6FF;
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+
+	div#footerSocialLinks > ul > li {
+		display: inline;
+		padding: 15px;
+		border-right: 1px solid #F5F6FF;
+	}
+	div#footerSocialLinks > ul > li > a {
+		color: #F5F6FF;
+		font-size: 20px;
+		line-height: 5px;
+		padding: 15px;
+	}
+
 }
