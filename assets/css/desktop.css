@@ -231,8 +231,11 @@
    }
 
 
-                           /* Rules for About Page */
+                           /* Rules for Contact */
 
-
+   #contactMap {
+   	display: block;
+   	margin: 0 auto;
+   }
 
 }

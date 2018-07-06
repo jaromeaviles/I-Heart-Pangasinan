@@ -205,5 +205,10 @@
     line-height: 5px;
    }
 
+   /* Contact */
+
+   form#contactForm {
+    padding-top: 15px;
+   }
 
 }

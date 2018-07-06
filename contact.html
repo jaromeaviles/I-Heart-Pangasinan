@@ -63,27 +63,82 @@
 
 
 	<!-- Header -->
-	<div class="wrapper">
-		<div class="container mb-4">
-			<div class="row">
-				<div class="col-sm-11">
-					<header id="mainHeader">
-						<h1>Contact Me</h1>
-					</header> <!-- /#mainHeader -->
+
+	<div id="contactWrapper">
+
+		<div class="wrapper">
+			<div class="container mb-4">
+				<div class="row">
+					<div class="col-sm-11">
+						<header id="mainHeader">
+							<h1>Contact Me</h1>
+						</header> <!-- /#mainHeader -->
+					</div>
 				</div>
 			</div>
-		</div>
-	</div> <!-- /.wrapper -->
+		</div> <!-- /.wrapper -->
 
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
-				<div id="contactHeader">	
-					<h2 class="text-center">I <i class="fas fa-heart"></i> Pangasinan </h2>
-				</div> <!-- /#contactHeader -->
-			</div>
-		</div> <!-- /.row -->
-	</div> <!-- /.container -->
+
+		<div class="container mb-4">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<div id="contactHeader">	
+						<h2 class="text-center">I <i class="fas fa-heart"></i> Pangasinan </h2>
+					</div> <!-- /#contactHeader -->
+				</div>
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+
+		<!-- Contact body -->
+
+		<div class="container pb-4">
+			<div class="row">
+
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<h3 class="text-center">Contact Me</h3>
+
+					<p class="text-center">
+						if you have any questions, inquiries, or really anything else don't hesitate 
+						to contact me using this form.
+					</p>
+
+					<p class="text-center">
+						I'm currently open to any concerns.
+					</p>
+
+					<img src="./assets/img/contact-page/locator.jpg" class="img-fluid" alt="Pangasinan Map" id="contactMap">
+				</div>
+
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<form method="POST" action="contact.html" id="contactForm">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="firstName">First Name</label>
+								<input type="text" class="form-control" id="firstName">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="lastName">Last Name</label>
+								<input type="text" class="form-control" id="lastName">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<input type="text" class="form-control" id="subject">
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea class="form-control"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</div> <!-- /#contactWrapper -->
 
 	
 

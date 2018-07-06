@@ -233,17 +233,32 @@
     background-color: #F5F6FF;
     padding-bottom: 15px;
    }
-   div#aboutCreatorContent > form > button {
+   div#aboutCreatorContent > a {
     text-transform: uppercase;
     background-color: #395556;
     border: none;
     box-shadow: 5px 5px 2px #333;
+    margin-top: 15px;
    }
 
                   /* Rules for Contact Page */
 
   div#contactHeader > h2 {
      font-family: 'Ribeye Marrow', sans-serif;
+  }
+
+  div#contactWrapper {
+    background-color: #F5F6FF;
+  }
+
+  form#contactForm > div > textarea {
+    /*max-width: 60px;*/
+    max-height: 100px;
+    min-height: 100px;
+  }
+
+  form#contactForm > button {
+    background-color: #395556;
   }
 
 }
