@@ -41,12 +41,15 @@
           /* General Rules For Landing Page */
 
 
-    main#mainLandingPage {
- 	background-image: url(../img/landing-page/landing.jpg);
+  main#mainLandingPage {
+ 	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/landing-page/landing.jpg);
  	background-size: cover;
  	background-position: center;
  	min-height: 100vh;
+ }
 
+ main#mainLandingPage > h1 {
+  text-shadow: 5px 25px 25px #222;
  }
 
 
@@ -56,29 +59,70 @@
     color: #f0ffff;
  }
 
- .navbar-light .navbar-brand,
- .navbar-light .navbar-nav .nav-link {
- 	color: #F5F6FF;
- 	font-size: 15px;
+ /*  Navigation */
+
+
+ .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,229,229)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+
+  border-color: transparent;
+}
+
+
+
+  #navigationBar {
+    height: 15vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+ .navigation-not-scrolled {
+  background-color: transparent;
+  transition: all 1s;
+ }
+
+ .navigation-bar-scrolled {
+    background-color: #141515;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    color: #fff; 
+    transition: all 1s; 
+    z-index: 2;
+    line-height: 10vh;
+ }
+
+
+ #navigationBar .nav-link {
+ 	color: #fff;
+  font-family: 'Ribeye Marrow', sans-serif;
+ 	font-size: 1.2em;
   font-weight: 15px;
  	letter-spacing: 2px;
  	margin-right: 20px;
-  /*text-shadow: 5px 5px 3px #333;*/
+  line-height: 10vh;
  }
- .navbar-light .navbar-brand:hover,
- .navbar-light .navbar-nav .nav-link:hover {
+
+ .navbar-brand {
+  font-family: 'Ribeye Marrow', sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+ }
+
+ .navbar-brand:hover {
+    color: #28a745;
+ }
+
+  #navigationBar .nav-link:hover {
  	color: #28a745;
  }
 
- .navbar .navbar-expand-lg .navbar-light {
- 	background-color: none;
- }
 
- .bg-light {
- 	background-color: transparent !important;
- }
-
- .hero-header-container:before {
+/* .hero-header-container:before {
  	background: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,.4));
  	content: "";
  	position: absolute;
@@ -86,7 +130,7 @@
  	right: 0;
  	bottom: 0;
  	left: 0;
- }
+ }*/
 
   /* General Rules for Home Page */
 
@@ -101,13 +145,16 @@
   	background-image: url(../img/landing-page/landing.jpg);
   	background-size: cover;
   	background-position: center;
-  	min-height: 60vh;
+  	height: 80vh;
   }
 
   header#mainHeader {
   	width: 100%;
-  	margin: 0 auto;
-  	padding-top: 20vh;
+    min-height: 60vh;
+    /*padding-top: 10vh;*/ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   header#mainHeader > h1 {
   	color: #F5F6FF;
@@ -201,10 +248,13 @@
 
     div#aboutContent {
       min-height: 30vh;
+      padding: 15px;
+      margin-top: 15px;
     }
 
    div#aboutContent > h2 {
     font-family: 'Ribeye Marrow', sans-serif;
+    padding: 15px 0;
 
    }
 
@@ -248,7 +298,7 @@
   }
 
   div#contactWrapper {
-    background-color: #F5F6FF;
+    background-color: transparent;
   }
 
   form#contactForm > div > textarea {

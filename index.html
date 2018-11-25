@@ -13,6 +13,10 @@
 	<link rel="icon" type="image/x-icon" href="./favicon.ico">
 	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
+	<!-- Imports Animate.css -->
+
+	<link rel="stylesheet" href="./assets/css/animate.css">
+
 	<!-- Imports Google Fonts -->
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Ribeye+Marrow" rel="stylesheet">
@@ -36,57 +40,6 @@
 
 <body>
 
-	<!-- Navigation -->
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<div class="container">
-			<a class="navbar-brand" href="./home.html">I <i class="fas fa-heart"></i> Pangasinan</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto text-center">
-					<li class="nav-item">
-						<a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-		<!--  Disclaimer -->
-
-	<!-- Modal -->
-
-	<div class="modal fade" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalCenterTitle">Disclaimer</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true" class="btn btn-danger">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<p class="text-justify">
-					No copyright infringement is intended. some assests/pictures and contents are copy paste in the internet and not owned by the developer/s unless otherwise intended; the credit goes to the owner This Website is for Educational Purposes only and not for profit. Thank you for your cooperation.
-					</p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary mx-auto" data-dismiss="modal">Ok. I Understand!</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
 
 	<!-- Main -->
 
@@ -94,22 +47,22 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-12 col-lg-12">
 				<div id="mainLandingContent">
-					<h1>I "Heart" Pangasinan</h1>
+					<h1 class="wow fadeInDown" data-wow-duration="3s" data-wow-delay="3s">I "Heart" Pangasinan</h1>
 				</div>
 			</div>
 
 			<div class="col-sm-12 col-md-12 col-lg-12">
 				<div id="landingPageFooter">
 
-					<h3>
+					<h3 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="2s">
 						Live, Travel, Experience
 					</h3>
 
-					<p id="content">
+					<p id="content" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
 						A provincial capital of Lingayen. It is on the western area of the island of Luzon along the Lingayen Gulf and South China Sea. A place of Salt. It has been described as a gateway to northern Luzon and as the heartland of the Philippines. Come and Discover the beauty of this city.
 					</p>
 
-					<a href="./home.html" class="btn btn-success" id="explore"> Explore</a>
+					<a href="home.html" class="btn btn-success wow zoomIn" data-wow-duration="4s" data-wow-delay="4s" id="explore"> Explore</a>
 				</div> <!-- /#landingPageFooter -->
 			</div>
 		</div>
@@ -124,8 +77,16 @@
 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+	<!-- Imports Wow Js -->
+
+	 <script src="./assets/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+     </script>
+
 	<!-- Imports Custom Script -->
 
 	<script src="./assets/js/script.js"></script>
+
 </body>
 </html>
