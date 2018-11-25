@@ -1,6 +1,6 @@
 $(window).scroll(function() {
 
-	if ($(this).scrollTop() >= 100) {
+	if ($(this).scrollTop() >= 300) {
 		$('#navigationBar').removeClass('navigation-not-scrolled');
 		$('#navigationBar').addClass('navigation-bar-scrolled');
 	}
@@ -11,6 +11,6 @@ $(window).scroll(function() {
 
 });
 
-	if($(window).scrollTop() >= 100) {
+	if($(window).scrollTop() >= 300) {
 		$('#navigationBar').addClass('navigation-not-scrolled');
 	}
